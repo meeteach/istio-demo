@@ -10,7 +10,5 @@ spec:
     - port: 8080
       targetPort: 8080
       name: http
-      nodePort: 30002
   selector:
     app: helloworld-service
-  type: NodePort
